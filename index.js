@@ -9,11 +9,18 @@ class Circle {
     return this.radius * 2;
   }
   
-  get circumstance(){
+  set diameter(diameter) {
+    this.radius = diameter / 2
+  }
+  
+  get circumference(){
     return this.radius * 2 * Math.PI
   }
   
-  set
+  set circumstance(diameter) {
+    this.radius = diameter / 2
+  }
+
   
   get area(){
     return this.radius * this.radius * Math.PI
